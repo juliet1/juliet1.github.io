@@ -11,3 +11,7 @@ body {
   font-weight: bold;
 }
 
+#profile-pic {
+  width: auto;
+  height: 250px;
+}
