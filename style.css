@@ -1,0 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: cadetblue;
+}
+
+.info {
+  color: white;
+}
+
+#email {
+  font-weight: bold;
+}
+
