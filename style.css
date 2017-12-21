@@ -1,15 +1,16 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: cadetblue;
+  font-family: 'Roboto Mono', monospace;
+  background-color: lightgray;
+  color: darkgoldenrod;
 }
 
 .info {
-  color: white;
-  border: 1px solid white;
-  margin: 10px;
-  padding: 20px;
-  border-radius: 10px;
-  width: 50%;
+  color: darkgoldenrod;
+  border: 1px solid darkgoldenrod;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 0px;
+  width: 10%;
 }
 
 #email {
