@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto Mono', monospace;
   background-color: lightgray;
-  color: darkgoldenrod;
+  color: palevioletred;
 }
 
 .info {
@@ -18,6 +18,8 @@ body {
 }
 
 #profile-pic {
+  border: 1px solid darkgoldenrod; 
+  padding: 5px;
   width: auto;
   height: 250px;
 }
