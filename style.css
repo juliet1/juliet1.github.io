@@ -1,27 +1,88 @@
+html {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: rgba(249, 115, 115);
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( 0deg, rgba(249, 115, 115, 1) 25%, rgba(254, 169, 61, 1) 100%);
+    background: -moz-linear-gradient( 0deg, rgba(249, 115, 115, 1) 25%, rgba(254, 169, 61, 1) 100%);
+    background: -ms-linear-gradient( 0deg, rgba(249, 115, 115, 1) 25%, rgba(254, 169, 61, 1) 100%);
+    background: -o-linear-gradient( 0deg, rgba(249, 115, 115, 1) 25%, rgba(254, 169, 61, 1) 100%);
+    background: linear-gradient( 0deg, rgba(249, 115, 115, 1) 25%, rgba(254, 169, 61, 1) 100%);
+}
+
+/* Website Main Menu */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-start
+}
+
+.name {
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+.second-row {
+    display: flex;
+    justify-content: flex-start
+}
+
+.menu-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {  
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.resume {
+    padding: 20px;
+}
+
+.photos {
+    padding: 20px;
+}
+
 body {
-  font-family: 'Roboto Mono', monospace;
-  background-color: lightgray;
-  color: palevioletred;
+    font-family: 'Roboto Mono', monospace;
+    
 }
 
-.info {
-  color: darkgoldenrod;
-  border: 1px solid darkgoldenrod;
-  margin: 5px;
-  padding: 5px;
-  border-radius: 0px;
-  width: 10%;
-}
-
-#email {
-  font-weight: bold;
+.profile {
+    display: flex;
 }
 
 #profile-pic {
-  border: 1px solid darkgoldenrod; 
-  padding: 5px;
-  width: auto;
-  height: 250px;
+    border: 1px solid black; 
+    padding: 5px;
+    width: auto;
+    height: 250px;
+}
+
+.info {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0px;
+    width: 20%;
+}
+
+.email {
+    font-weight: bold;
 }
 
 @media (max-width: 500px) {
